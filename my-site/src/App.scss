@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-header {
 	min-height: 50vh;
 	display: flex;
@@ -10,6 +6,11 @@
 	justify-content: center;
 	font-size: calc(10px + 4vmin);
 	color: white;
+	text-align: center;
+}
+
+header{
+	text-align: center;
 }
 
 body{
