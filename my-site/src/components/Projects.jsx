@@ -4,6 +4,7 @@ import '../App.scss';
 import './Projects.scss';
 import NavBar from './NavBar.jsx';
 import ProjectBox from './ProjectBox/ProjectBox.jsx';
+import logo from '../logo.svg';
 
 
 class Projects extends React.Component{
@@ -15,10 +16,10 @@ class Projects extends React.Component{
 				</header>
 				<NavBar />
 				<main>
-					<ProjectBox header="TestImg" mainText="realText"/>
-					<ProjectBox header="TestImg" mainText="realText"/>
-					<ProjectBox header="TestImg" mainText="realText"/>
-					<ProjectBox header="TestImg" mainText="realText"/>
+					<ProjectBox header="TestImg" mainText="realText" img={logo}/>
+					<ProjectBox header="TestImg" mainText="realText" img={logo}/>
+					<ProjectBox header="TestImg" mainText="realText" img={logo}/>
+					<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 				</main>
 			</div>
 		);

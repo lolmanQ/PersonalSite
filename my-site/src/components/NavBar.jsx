@@ -1,5 +1,6 @@
 import React from 'react';
 import NavItem from '../Menu/NavItem.jsx';
+import './NavBar.scss';
 
 
 class NavBar extends React.Component{
