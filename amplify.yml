@@ -3,10 +3,10 @@ frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     build:
-      commands: [cd my-site, npm run build]
+      commands: []
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /my-site/public
+    baseDirectory: /my-site/build
     files:
       - '**/*'
   cache:
