@@ -2,7 +2,7 @@ import React from 'react';
 import '../bulmaswatch.min.css';
 import '../App.scss';
 
-import NavBar from './NavBar.jsx';
+import NavBar from './NavBar/NavBar.jsx';
 
 
 class Home extends React.Component{

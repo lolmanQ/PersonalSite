@@ -2,7 +2,7 @@ import './bulmaswatch.min.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home.jsx';
-import Projects from './components/Projects.jsx';
+import Projects from './components/Projects/Projects.jsx';
 import About from './components/About.jsx';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
