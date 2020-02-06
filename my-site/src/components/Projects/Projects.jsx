@@ -21,7 +21,7 @@ class Projects extends React.Component{
 					<Switch>
 						<Route path="/Projects" exact>
 							<ProjectBox header="VRChat" mainText="I was having fun" img={img1} miniPage="vrchat"/>
-							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
+							<ProjectBox header="WOW" mainText="realText" img={logo}/>
 							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 						</Route>
