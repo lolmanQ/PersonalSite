@@ -1,4 +1,4 @@
-import './bulmaswatch.min.css';
+import './bulmaswatch1.min.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home.jsx';

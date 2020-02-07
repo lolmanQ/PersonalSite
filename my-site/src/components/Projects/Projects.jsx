@@ -6,6 +6,8 @@ import logo from '../../logo.svg';
 import img1 from '../../Images/VRChat1.png';
 import {Route, Switch } from 'react-router-dom';
 import ProjectMiniPage from './ProjectMiniPage/ProjectMiniPage.jsx';
+import Data from '../../Data/Projects.json';
+import image from '../../Images/streetSignsUF.png';
 
 
 class Projects extends React.Component{
@@ -20,11 +22,21 @@ class Projects extends React.Component{
 					
 					<Switch>
 						<Route path="/Projects" exact>
+							{
+								Data.map((data, index) => (
+									<ProjectBox key={index} header={data.Title} mainText={data.ShortText} img={data.ImgURL} miniPage={data.PageRoute} data={data}/>
+								))
+							}
 							<ProjectBox header="VRChat" mainText="I was having fun" img={img1} miniPage="vrchat"/>
 							<ProjectBox header="WOW" mainText="realText" img={logo}/>
 							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 						</Route>
+						{
+							Data.map((data, index) => (
+								<Route key={index} path={"/Projects/" + data.PageRoute}><ProjectMiniPage header={data.Title} mainText={data.MainText} img={data.ImgURL} data={data}/></Route>
+							))
+						}
 						<Route path="/Projects/VRChat"><ProjectMiniPage header="VRChat" mainText="I was having fun" img={img1}/></Route>
 					</Switch>
 				</main>

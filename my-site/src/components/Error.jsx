@@ -1,6 +1,5 @@
 import React from 'react';
-import '../bulmaswatch.min.css';
-import '../App.scss';
+import { NavLink } from 'react-router-dom';
 
 
 class Error extends React.Component{
@@ -8,6 +7,7 @@ class Error extends React.Component{
 		return (
 			<div>
 				<h1>ERROR</h1>
+				<NavLink to="/">Return home</NavLink>
 			</div>
 		);
 	}

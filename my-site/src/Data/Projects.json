@@ -1,0 +1,24 @@
+[
+	{
+		"Name": "Calculator",
+		"Title": "Calculator",
+		"ShortText": "Made in javascript",
+		"MainText": "This was my secound ever calculator made from scratch",
+		"ImgURL": "",
+		"BoxImgURL": "",
+		"PageImgURL": "",
+		"URL": "https://google.com/",
+		"PageRoute": "calc"
+	},
+	{
+		"Name": "Street signs UF",
+		"Title": "UF App",
+		"ShortText": "Android app",
+		"MainText": "A UF app",
+		"ImgURL": "https://cdn.discordapp.com/attachments/631514135116382208/648764184632360979/Instagram_logo.png",
+		"BoxImgURL": "https://cdn.discordapp.com/attachments/631514135116382208/648764184632360979/Instagram_logo.png",
+		"PageImgURL": "",
+		"URL": "https://google.com/",
+		"PageRoute": "ufapp"
+	}
+]
