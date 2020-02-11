@@ -1,0 +1,52 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "mySiteData",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/about",
+            "lambdaFunction": "backTest",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "siteAPI",
+    "apiName": "siteAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "mySiteData"
+        },
+        {
+            "lambdaFunction": "backTest"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-my-site-react-124708-authRole",
+        "unAuthRoleName": "amplify-my-site-react-124708-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mySiteData",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "backTest",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
