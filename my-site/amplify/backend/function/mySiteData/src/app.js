@@ -135,6 +135,16 @@ app.get(path + '/object' + hashKeyPath + sortKeyPath, function(req, res) {
   });
 });
 
+app.get('/itemse', function(req, res) {
+	const query = req.query
+	// or
+	// const query = req.apiGateway.event.queryStringParameters
+	res.json({
+	  event: req.apiGateway.event, // to view all event data
+	  query: query
+	})
+});
+
 
 /************************************
 * HTTP put method for insert object *
