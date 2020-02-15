@@ -27,10 +27,6 @@ class Projects extends React.Component{
 									<ProjectBox key={index} header={data.Title} mainText={data.ShortText} img={data.ImgURL} miniPage={data.PageRoute} data={data}/>
 								))
 							}
-							<ProjectBox header="VRChat" mainText="I was having fun" img={img1} miniPage="vrchat"/>
-							<ProjectBox header="WOW" mainText="realText" img={logo}/>
-							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
-							<ProjectBox header="TestImg" mainText="realText" img={logo}/>
 						</Route>
 						{
 							Data.map((data, index) => (

@@ -9,6 +9,8 @@ import Navigation from './components/Navigation';
 import Amplify, { API } from 'aws-amplify';
 import awsconfig from './aws-exports';
 
+
+/*
 Amplify.configure(awsconfig);
 
 let apiName = 'mySiteData';
@@ -25,8 +27,10 @@ API.get(apiName, path, myInit).then(response => {
 }).catch(error => {
     console.log(error.response)
 });
-API.get('siteAPI', '/itemse?q=test');
 
+
+console.log(API.get('siteAPI', '/itemse?q=test'));
+*/
 
 class App extends Component {
 	async getData(){

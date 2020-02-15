@@ -18,7 +18,18 @@
 		"ImgURL": "https://cdn.discordapp.com/attachments/631514135116382208/648764184632360979/Instagram_logo.png",
 		"BoxImgURL": "https://cdn.discordapp.com/attachments/631514135116382208/648764184632360979/Instagram_logo.png",
 		"PageImgURL": "",
-		"URL": "https://google.com/",
+		"URL": "https://uf.lolman.name/",
 		"PageRoute": "ufapp"
+	},
+	{
+		"Name": "Insynth",
+		"Title": "Insynth",
+		"ShortText":"Game Jam Game",
+		"MainText":"This game was made during a game jam",
+		"ImgURL":"https://img.itch.zone/aW1hZ2UvMTc4NTgzLzgzNDE0Ni5wbmc=/315x250%23c/yRckA4.png",
+		"BoxImgURL" :"https://img.itch.zone/aW1hZ2UvMTc4NTgzLzgzNDE0Ni5wbmc=/315x250%23c/yRckA4.png",
+		"PageImgURL": "https://img.itch.zone/aW1hZ2UvMTc4NTgzLzgzNDE0Ni5wbmc=/315x250%23c/yRckA4.png",
+		"URL": "https://cakeslice.itch.io/insynth",
+		"PageRoute":"insynth"
 	}
 ]

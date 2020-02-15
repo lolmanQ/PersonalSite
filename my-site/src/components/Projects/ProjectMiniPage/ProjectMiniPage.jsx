@@ -13,7 +13,7 @@ class ProjectMiniPage extends React.Component{
 				<h2>{this.props.header}</h2>
 				<p>{this.props.mainText}</p>
 				<NavLink to="/projects"><button className="button rounded">Back</button></NavLink>
-				<StartAppButton URL="https://www.google.com/"/>
+				<StartAppButton URL={this.props.data.URL}/>
 			</section>
 			
 		);
