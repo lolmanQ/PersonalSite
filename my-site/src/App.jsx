@@ -33,19 +33,10 @@ console.log(API.get('siteAPI', '/itemse?q=test'));
 */
 
 class App extends Component {
-	async getData(){
-		let apiName = 'siteAPI';
-    	let path = '/items';
-    	let myInit = { // OPTIONAL
-        	headers: {} // OPTIONAL
-    	}
-    	return await API.get(apiName, path, myInit);
-	}
-
   render() {
     return (      
        <BrowserRouter>
-        <div>{console.log(this.getData())}
+        <div>
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/Projects" component={Projects}/>
