@@ -6,31 +6,6 @@ import Projects from './components/Projects/Projects.jsx';
 import About from './components/About.jsx';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
-import Amplify, { API } from 'aws-amplify';
-import awsconfig from './aws-exports';
-
-
-/*
-Amplify.configure(awsconfig);
-
-let apiName = 'mySiteData';
-let path = '/items'; 
-let myInit = { // OPTIONAL
-    headers: {}, // OPTIONAL
-    response: true, // OPTIONAL (return the entire Axios response object instead of only response.data)
-    queryStringParameters: {  // OPTIONAL
-        name: 'param'
-    }
-}
-API.get(apiName, path, myInit).then(response => {
-    // Add your code here
-}).catch(error => {
-    console.log(error.response)
-});
-
-
-console.log(API.get('siteAPI', '/itemse?q=test'));
-*/
 
 class App extends Component {
   render() {
