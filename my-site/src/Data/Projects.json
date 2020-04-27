@@ -4,7 +4,7 @@
 		"Title": "Calculator",
 		"ShortText": "Made in javascript",
 		"MainText": "This was my secound ever calculator made from scratch",
-		"ImgURL": "",
+		"ImgURL": "https://lolman.name/calcuImg.png",
 		"BoxImgURL": "",
 		"PageImgURL": "",
 		"URL": "https://google.com/",
@@ -31,5 +31,14 @@
 		"PageImgURL": "https://img.itch.zone/aW1hZ2UvMTc4NTgzLzgzNDE0Ni5wbmc=/315x250%23c/yRckA4.png",
 		"URL": "https://cakeslice.itch.io/insynth",
 		"PageRoute":"insynth"
+	},
+	{
+		"Name": "WebEndWork",
+		"Title": "Final web assignment",
+		"ShortText": "School assignment",
+		"MainText": "This was my final assignment i the web 1 corse",
+		"ImgURL":"https://lolman.name/web-end.png",
+		"URL": "https://web-end.lolman.name",
+		"PageRoute":"webend"
 	}
 ]

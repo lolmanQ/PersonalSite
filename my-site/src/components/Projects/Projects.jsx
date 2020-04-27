@@ -18,7 +18,7 @@ class Projects extends React.Component{
 					<h1>Projects</h1>
 				</header>
 				<NavBar />
-				<main>
+				<main className="projects">
 					
 					<Switch>
 						<Route path="/Projects" exact>

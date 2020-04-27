@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.scss';
+import './About.scss';
+import me from '../me.jpg';
 
 import NavBar from './NavBar/NavBar.jsx';
 
@@ -12,8 +14,12 @@ class About extends React.Component{
 					<h1>About</h1>
 				</header>
 				<NavBar/>
-				<main>
-		
+				<main className="about">
+					<div className="box">
+						<h2>About me</h2>
+						<img src={me} alt=""/>
+						<p>My name is Elias Böök i'm an web and c# programmer</p>
+					</div>
 				</main>
 			</div>
 		);
