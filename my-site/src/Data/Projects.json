@@ -40,5 +40,14 @@
 		"ImgURL":"https://lolman.name/web-end.png",
 		"URL": "https://web-end.lolman.name",
 		"PageRoute":"webend"
+	},
+	{
+		"Name":"WebServerEnd",
+		"Title":"Food site",
+		"ShortText":"School assignment",
+		"MainText":"This was my final assignment i the webserverprogramming corse that i completed before the lesson number 3",
+		"ImgURL":"https://lolman.name/webserver.png",
+		"URL":"http://webserver.lolman.name/",
+		"PageRoute":"webserverend"
 	}
 ]
