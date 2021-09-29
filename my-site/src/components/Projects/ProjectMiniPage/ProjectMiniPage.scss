@@ -11,4 +11,18 @@
 	p{
 
 	}
+	animation-name: startTransition;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+
+}
+
+@keyframes startTransition{
+	to{
+		transform: scale(1);
+	}
+	from{
+		transform: scale(0.2);
+	}
 }

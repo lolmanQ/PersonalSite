@@ -21,17 +21,34 @@ $imgDimentions: 200px;
 	margin: 10px;
 	border-radius: 10px;
 	overflow: hidden;
+	animation-name: boxDropOut;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 .Project-Box:hover{
-	animation-name: boxDrop;
+	animation-name: boxDropIn;
 	animation-duration: 0.2s;
 	animation-iteration-count: 1;
 	animation-fill-mode: both;
 }
 
-@keyframes boxDrop{
+@keyframes boxDropIn{
 	to{
+		background-color: rgba(255, 255, 255, 0.473);
+		//height: 310px;
+		//width: 310px;
+		transform: scale(1.1);
+		box-shadow: 0px 0px 150px rgb(41, 41, 41);
+	}
+}
+
+@keyframes boxDropOut{
+	to{
+		
+	}
+	from{
 		background-color: rgba(255, 255, 255, 0.473);
 		//height: 310px;
 		//width: 310px;
